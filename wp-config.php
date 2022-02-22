@@ -20,13 +20,13 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'wordpressdb' );
+define( 'DB_NAME', 'newtrjwebsite' );
 
 /** Database username */
 define( 'DB_USER', 'root' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'root' );
+define( 'DB_PASSWORD', 'trj2021passwordlimited!!' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
@@ -67,6 +67,7 @@ define( 'NONCE_SALT',       '!*S*kUzwx:JJ-OMPACzsGfi1qOhs7[nfBVK%V}F#7Dc#83-Urpu
  */
 $table_prefix = 'wp_';
 
+
 /**
  * For developers: WordPress debugging mode.
  *
@@ -82,7 +83,6 @@ $table_prefix = 'wp_';
 define( 'WP_DEBUG', false );
 
 /* Add any custom values between this line and the "stop editing" line. */
-
 
 
 /* That's all, stop editing! Happy publishing. */
